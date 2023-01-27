@@ -1,13 +1,16 @@
 <?php
-$db = new mysqli('localhost', 'root', '', 'batch3');
+include 'db.php';
 
-$id = $_POST['id'];
+if(isset($_POST['id'])){
+
+// $id = $_POST['id'];
 
 $sql = "SELECT * FROM `crud` WHERE id = $id";
 $result = $db->query($sql);
 $row = $result->fetch_assoc();
 
 echo json_encode($row);
+}
 
 
 ?>
