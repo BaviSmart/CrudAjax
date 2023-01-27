@@ -1,0 +1,46 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family :Arial, Helvetica, sans-serif;
+ }
+
+.table th,.table td {
+    padding: 15px;
+}
+.table thead {
+    background-color: dodgerblue !important;
+    color: #fff;
+}
+.table td {
+   
+    font-weight: 700;
+   
+}
+.table .fa-solid {
+    padding-left: 5px;
+}
+.modal .modal-content{
+   
+   padding: 30px;
+   
+}
+.modal-header {
+    border-bottom:none;
+}
+.modal-footer {
+    border-top:none;
+}
+.btn {
+    border-radius: 0;
+   
+}
+h5 {
+    font-weight: bold;
+}
+.table .printbtn {
+    background-color: green;
+    color: #fff;
+    padding: 2px 10px;
+    border: none;
+}
