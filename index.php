@@ -205,7 +205,7 @@
                     url: 'insert.php',
                     type: 'POST',
                     data: formdata,
-                    success: function(data, status) {
+                    success: function(data) {
                         console.log(data);
                         getData();
                         $('#dataform').each(function() {
